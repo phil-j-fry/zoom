@@ -163,55 +163,55 @@
 
     /* Section-specific layout */
 
-    #web-dev h1 {
+    #solar-system h1 {
       font-size: 100px;
       font-weight: 600;
       line-height: 105px;
     }
 
-    #front-end header,
-    #css header,
-    #css3 header { padding-top: 0;}
+    #gas-giants header,
+    #asteroid-belt header,
+    #terrestrials header { padding-top: 0;}
 
-    #front-end h1 {
+    #gas-giants h1 {
       line-height: 85px;
       font-size: 92px;
     }
 
-    #css header,
-    #css3 header { padding: 0;}
+    #asteroid-belt header,
+    #terrestrials header { padding: 0;}
 
-    #css h1 {
+    #asteroid-belt h1 {
       font-size: 150px;
       line-height: 180px;
     }
 
-    #css3 h1 {
+    #terrestrials h1 {
       font-size: 110px;
       line-height: 105px;
     }
 
-    #transforms h1 {
+    #sun h1 {
       font-size: 160px;
       line-height: 180px;
     }
 
     /* Section colors */
 
-    #web-dev { color: hsl( 0, 90%, 45% ); }
-    #web-dev p, #web-dev .img { background: hsla( 0, 90%, 45%, 0.3 ); }
+    #solar-system { color: hsl( 0, 90%, 45% ); }
+    #solar-system p, #solar-system .img { background: hsla( 0, 90%, 45%, 0.3 ); }
 
-    #front-end { color: hsl( 72, 90%, 40% ); }
-    #front-end p, #front-end .img { background: hsla( 72, 90%, 40%, 0.3 ); }
+    #gas-giants { color: hsl( 72, 90%, 40% ); }
+    #gas-giants p, #gas-giants .img { background: hsla( 72, 90%, 40%, 0.3 ); }
 
-    #css { color: hsl( 144, 90%, 45% ); }
-    #css p, #css .img { background: hsla( 144, 90%, 45%, 0.3 ); }
+    #asteroid-belt { color: hsl( 144, 90%, 45% ); }
+    #asteroid-belt p, #asteroid-belt .img { background: hsla( 144, 90%, 45%, 0.3 ); }
 
-    #css3 { color: hsl( 216, 90%, 45% ); }
-    #css3 p, #css3 .img { background: hsla( 216, 90%, 45%, 0.3 ); }
+    #terrestrials { color: hsl( 216, 90%, 45% ); }
+    #terrestrials p, #terrestrials .img { background: hsla( 216, 90%, 45%, 0.3 ); }
 
-    #transforms { color: hsl( 288, 90%, 45% ); }
-    #transforms p, #transforms .img { background: hsla( 288, 90%, 45%, 0.3 ); }
+    #sun { color: hsl( 288, 90%, 45% ); }
+    #sun p, #sun .img { background: hsla( 288, 90%, 45%, 0.3 ); }
 
 
 
@@ -228,28 +228,28 @@
       position: absolute;
     }
 
-    .csstransforms #front-end {
+    .csstransforms #gas-giants {
       -webkit-transform: scale(0.3333);
          -moz-transform: scale(0.3333);
            -o-transform: scale(0.3333);
               transform: scale(0.3333);
     }
 
-    .csstransforms #css {
+    .csstransforms #asteroid-belt {
       -webkit-transform: scale(0.1111);
          -moz-transform: scale(0.1111);
            -o-transform: scale(0.1111);
               transform: scale(0.1111);
     }
 
-    .csstransforms #css3 {
+    .csstransforms #terrestrials {
       -webkit-transform: scale(0.037);
          -moz-transform: scale(0.037);
            -o-transform: scale(0.037);
               transform: scale(0.037);
     }
 
-    .csstransforms #transforms {
+    .csstransforms #sun {
       -webkit-transform: scale(0.0123456);
          -moz-transform: scale(0.0123456);
            -o-transform: scale(0.0123456);
